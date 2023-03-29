@@ -3,7 +3,7 @@ This is a collection of various scripts that may be useful for different tasks. 
 
 ## Scripts
 `password_generator.py`
-This script generates you a random password with the options to include uppercase characters, lowercase characters, numbers, and special characters. This script can be useful for creating a strong random password you can use for everyday purposes.
+- This script generates you a random password with the options to include uppercase characters, lowercase characters, numbers, and special characters. This script can be useful for creating a strong random password you can use for everyday purposes.
 
 `url_shortener.py`
 - This script uses the TinyURL API to shorten a given URL. It can also customize the shortened URL with a user-specified alias. This script is useful for creating short, easy-to-remember links for sharing online.
