@@ -13,3 +13,6 @@ This is a collection of various scripts that may be useful for different tasks. 
 
 `pdf_merger.py`
 - This script merges multiple PDF files into a single PDF file. It can also add a table of contents to the merged file based on the filenames of the input files. This script is useful for combining multiple PDF files into a single document for easy reading or distribution.
+
+## Usage
+To use any of the scripts in this collection, simply run the script using Python from the command line. Each script has its own set of command line arguments and options, which can be viewed by running the script with the --help or -h flag.
