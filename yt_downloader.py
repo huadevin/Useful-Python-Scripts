@@ -6,7 +6,7 @@ from argparse import ArgumentParser
 parser = ArgumentParser()
 parser.add_argument('-l', '--link', metavar='link', help='link to the YouTube video', required=True)
 parser.add_argument('-n', '--name', metavar='name', help='name of the file', required=True)
-parser.add_argument('-p', '--path', metavar='path', help='path for the pdf files', required=False)
+parser.add_argument('-p', '--path', metavar='path', help='path to export the file', required=False)
 parser.add_argument('-a', '--audio', metavar='audio', help='option arg to just download the audio', required=False)
 
 
