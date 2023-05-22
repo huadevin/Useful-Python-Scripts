@@ -30,9 +30,9 @@ if __name__ == "__main__":
         path = os.path.expanduser(path)
 
     yt = YouTube(link, on_progress_callback=on_progress)
-    filesize = yt.streams.first().filesize
+    # filesize = yt.streams.first().filesize
     if args.audio:
-        file = yt.streams.get_audio_only()
+        file = yt.streams.filter(only_audio=True).first()
         suffix = '.mp3'
     else:
         file = yt.streams.get_highest_resolution()
